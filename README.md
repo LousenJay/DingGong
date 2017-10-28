@@ -1,5 +1,6 @@
 # DingGong
 一个关于钉宫的鬼畜网站
+
 A kichihu website about Rie Kugimiya
 
 # Installation process
