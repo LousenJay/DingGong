@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+{
+	cursor:url('img/moe.cur'),url(img/moe.cur),auto;
+	
+	}
+
+
+body
+{	
+
+	background:url('img/bg.png');
+	background-size:cover;
+	
+	}
+	
+
+a
+{
+	cursor:url('img/moe2.cur'),url(img/moe2.cur),auto;
+	
+	}
+
+/*主菜单位置*/
+#menue 
+{	position:fixed;
+	margin-top:20%;
+	margin-left:19%;
+
+}
+
+
+/*钉宫四萌位置*/
+#d1
+{
+	 position:fixed;
+    top:160px;
+    right:800px;
+	
+	}
+
+#d2
+{
+	position:fixed;
+    top:500px;
+    right:1600px;
+	
+	}
+	
+#d3
+{
+	 position:fixed;
+    top:160px;
+    right:1600px;
+	
+	}
+	
+	
+#d4
+{
+	position:fixed;
+    top:500px;
+    right:900px;
+	
+	}
+	
+	

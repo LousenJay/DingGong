@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta author="集"/>
+<link type="image/x-icon" href="img/xs.ico" rel="shortcut icon">
+<title>主界面</title>
+
+<link href="wk.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="GalMenu.css" />
+<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+<script src="jQueryRotate.js"></script>
+<script src="ymj.js"></script>
+
+ 
+ <script type="text/javascript">
+function f1(){
+	alert("我帅不帅？");
+	alert("真的帅？");
+	alert("你没有骗我？");
+	alert("看来你还是有眼光的！");
+	alert("既然你这么有眼光！");
+	alert("这个机缘就送给你了！");
+	
+	
+} 
+ </script>
+ 
+</head>
+
+
+<body>
+
+<!--菜单-->
+<div class="GalMenu GalDropDown">
+      <div class="circle" id="gal">
+        <div class="ring">
+          <a href="index.html" title="" class="menuItem">首页</a>
+          <a href="http://www.tsdm.me/home.php?mod=space&uid=1141096" title="" class="menuItem">我</a>
+          <a href="http://www.tsdm.me/home.php?mod=space&uid=1141096" title="" class="menuItem">婆</a>
+          <a href="index.html" title="" class="menuItem">退出</a>
+          <a href="http://www.lousenjay.info/" title="" class="menuItem">老</a>
+          <a href="http://www.lousenjay.info/" title="" class="menuItem">全</a></div>
+        <audio id="audio" src="music/dg_2.mp3"></audio>
+      </div>
+</div>
+<div id="overlay" style="opacity:0.6;"></div>
+<script type="text/javascript">var items = document.querySelectorAll('.menuItem');
+  for (var i = 0,
+  l = items.length; i < l; i++) {
+    items[i].style.left = (50 - 35 * Math.cos( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
+    items[i].style.top = (50 + 35 * Math.sin( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%"
+  }</script>
+
+<script>window.jQuery || document.write('<script src="jquery-2.1.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="GalMenu.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    $('body').GalMenu({
+      'menu': 'GalDropDown'
+    })
+  });
+ </script>
+
+
+	<!--主菜单-->
+
+    <div id="menue">
+    
+        
+        <a href="yssd.html"><img class="img1" src="img/b1.png"></a>
+        <br>
+        <a href="ydgd.html"><img class="img1" src="img/b2.png"></a>
+        <br>   
+        <a href="fqzl.html" onClick="f1()"><img class="img1" src="img/b3.png"></a>
+        <br>
+    
+    
+    </div>
+    
+    <!--钉宫四萌-->
+        
+    <img class="d0" id="d1" src="img/d1.png">
+    <audio id="dg_1" preload="auto">
+      <source src="music/dg_1.mp3">
+    </audio>
+    
+    
+    <img class="d0" id="d2" src="img/d2.png">
+     <audio id="dg_2" preload="auto">
+      <source src="music/dg_2.mp3">
+    </audio>
+    
+    <img class="d0" id="d3" src="img/d3.png">
+     <audio id="dg_3" preload="auto">
+      <source src="music/dg_3.mp3">
+    </audio>
+    
+    <img class="d0" id="d4" src="img/d4.png">
+     <audio id="dg_4" preload="auto">
+      <source src="music/dg_4.mp3">
+    </audio>
+    
+    <audio id="dg_0" preload="auto">
+      <source src="music/dg_0.mp3">
+    </audio>
+    
+	<audio id="dg_5" preload="auto">
+      <source src="music/dg_5.mp3">
+    </audio>
+    
+    <audio id="dg_6" preload="auto">
+      <source src="music/dg_6.mp3">
+    </audio>
+    
+    
+
+
+</body>
+
+</html>
+
+
