@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta author="集"/>
+<link type="image/x-icon" href="img/xs.ico" rel="shortcut icon">
+<title>生命的意义</title>
+
+<script type="text/javascript">
+function f1(){
+	alert("去吧！新世界的卡密在等着你！") 
+} 
+var flag=1;
+function f(){ 
+	var Bn = document.getElementById('Bn');
+	var aWidth= document.body.clientWidth || document.documentElement.clientWidth;
+	var aHeight= document.body.clientHeight || document.documentElement.clientHeight;
+	var sJs1=Math.floor(Math.random()*aHeight);
+	var sJs2=Math.floor(Math.random()*aWidth);
+	if(flag==1){
+		Bn.style.top=sJs1 + 'px';
+		Bn.style.left=sJs2+'px'; 
+		flag=2;
+		
+	}else if(flag==2){
+		Bn.style.top=sJs1+'px';
+		Bn.style.left=sJs2+'px';
+		flag=3;
+	}else if(flag==3){
+	Bn.style.top=635 + 'px';
+		Bn.style.left=600 + 'px';
+		flag=4;
+	}else if(flag==4){
+		Bn.style.top=635 + 'px';
+		Bn.style.left=860 + 'px';
+		flag=1;
+	}
+}
+function f2(){
+		alert('你竟然点到了，牛逼了~');
+	}
+ </script>
+ 
+ <style>
+html
+{
+	cursor:url('img/sszs.cur'),url(img/sszs.cur),auto;
+	
+	}
+
+a
+{
+	cursor:url('img/sszs.cur'),url(img/sszs.cur),auto;
+	
+	}
+ 
+ </style>
+ 
+
+</head>
+
+<body background="img/ss.gif">
+
+<!--插入音频 -->
+<audio autoplay="autopaly" loop>
+
+    <source src="music/gj.mp3" audio/mp3" />
+    
+</audio>
+
+<div id="By" style="position:absolute; left:600px; top:635px;">
+	<a href="https://space.bilibili.com/10221935/#!/"><img src="img/yes.png" onclick="f1()"/ ></a>
+
+</div>
+<div id="Bn" style="position:absolute; left:1100px; top:635px;">
+	<img src="img/no.png" onmouseover="f()" onclick="f2()"/>
+</div>
+
+
+</body>
+</html>
